@@ -29,7 +29,7 @@ body {
 
 .app-title {
     background: linear-gradient(120deg, brown, black);
-    -webkit-background-clip: text;
+    /*ebkit-background-clip: text;*/
     -webkit-text-fill-color: transparent;
 }
 
