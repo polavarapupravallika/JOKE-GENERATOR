@@ -1,10 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 
 import Home from "./components/Home";
 import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
-
 function Layout() {
   const location = useLocation();
 
